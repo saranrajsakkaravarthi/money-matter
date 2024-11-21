@@ -77,7 +77,16 @@ Target User: People looking for a more robust solution with greater automation a
 
 Price: $4.99–$9.99 per month or $49.99–$99.99 annually.
 
-
+buildscript {
+    ext {
+        compose_ui_version = '1.2.0'
+    }
+}// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '7.4.1' apply false
+    id 'com.android.library' version '7.4.1' apply false
+    id 'org.jetbrains.kotlin.android' version '1.7.0' apply false
+}
 
 
 # Money-Matters-A-Personal-Finance-Management-App
@@ -90,3 +99,7 @@ R.SANTHOSH KUMAR
 S.SARMILA
 
 S.SARANYA
+
+ project demo link 
+ 
+ https://drive.google.com/file/d/1xTFTPyWkeeLQ4kPZw7gHV_5cQ64FLPRb/view?usp=drivesdk
